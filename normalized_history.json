@@ -1,0 +1,74 @@
+[
+  {
+    "start_at": -57, 
+    "description": "Normal bolus: 0.5U", 
+    "end_at": -57, 
+    "amount": 0.5, 
+    "type": "Bolus", 
+    "unit": "U"
+  }, 
+  {
+    "start_at": -57, 
+    "description": "BolusWizard: 10g", 
+    "end_at": -57, 
+    "amount": 10, 
+    "type": "Meal", 
+    "unit": "g"
+  }, 
+  {
+    "start_at": -77, 
+    "description": "Normal bolus: 0.5U", 
+    "end_at": -77, 
+    "amount": 0.5, 
+    "type": "Bolus", 
+    "unit": "U"
+  }, 
+  {
+    "start_at": -77, 
+    "description": "BolusWizard: 10g", 
+    "end_at": -77, 
+    "amount": 10, 
+    "type": "Meal", 
+    "unit": "g"
+  }, 
+  {
+    "amount": -0.55, 
+    "start_at": -119, 
+    "description": "Pump Suspend", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -79
+  }, 
+  {
+    "amount": -0.55, 
+    "start_at": -119, 
+    "description": "Pump Suspend", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -3
+  }, 
+  {
+    "amount": -0.55, 
+    "start_at": -125, 
+    "description": "Pump Suspend", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -3
+  }, 
+  {
+    "start_at": -210, 
+    "description": "Normal bolus: 2.6U", 
+    "end_at": -210, 
+    "amount": 2.6, 
+    "type": "Bolus", 
+    "unit": "U"
+  }, 
+  {
+    "start_at": -210, 
+    "description": "BolusWizard: 20g", 
+    "end_at": -210, 
+    "amount": 20, 
+    "type": "Meal", 
+    "unit": "g"
+  }
+]
