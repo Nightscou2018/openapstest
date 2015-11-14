@@ -1,812 +1,89 @@
 [
   {
-    "programmed": 0.9, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T21:00:44 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T21:00:44", 
+    "_type": "SensorAlert", 
+    "alarm_description": "Low Glucose", 
+    "_description": "SensorAlert 2015-11-15T05:49:53 head[3], body[0] op[0x0b]", 
+    "alarm_type": 102, 
+    "timestamp": "2015-11-15T05:49:53", 
     "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.575, 
-            "age": 142
-          }, 
-          {
-            "amount": 1.825, 
-            "age": 152
-          }, 
-          {
-            "amount": 0.4, 
-            "age": 162
-          }, 
-          {
-            "amount": 0.8, 
-            "age": 302
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 322
-          }, 
-          {
-            "amount": 2.1, 
-            "age": 332
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 432
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c17178ec04998c010a2c0202ed01c42d0544cd038b0d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100240024001000", 
-    "amount": 0.9, 
-    "unabsorbed": 0.4, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "acc0356a0f"
+    "_head": "0b6646", 
+    "amount": 70, 
+    "_date": "b5f145af0f"
   }, 
   {
-    "_type": "BolusWizard", 
-    "bg": 123, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T21:00:43 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T21:00:43", 
-    "_body": "00a002c63228340000000010002437", 
-    "_head": "5b7b", 
-    "unabsorbed_insulin_total": 0.4, 
-    "correction_estimate": 1.3, 
-    "_date": "abc0156a0f", 
-    "bolus_estimate": 0.9, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.0, 
-    "carb_input": 0, 
-    "sensitivity": 50
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2015-11-15T05:44:37 head[2], body[0] op[0x1e]", 
+    "timestamp": "2015-11-15T05:44:37", 
+    "_body": "", 
+    "_head": "1ea5", 
+    "_date": "a5ec050f0f"
   }, 
   {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-10T21:00:25 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-10T21:00:25", 
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2015-11-15T05:44:24 head[2], body[0] op[0x1e]", 
+    "timestamp": "2015-11-15T05:44:24", 
     "_body": "", 
-    "_head": "0a7b", 
-    "amount": 123, 
-    "_date": "99c0550a0f"
+    "_head": "1e85", 
+    "_date": "98ec050f0f"
+  }, 
+  {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2015-11-15T05:37:30 head[2], body[0] op[0x1e]", 
+    "timestamp": "2015-11-15T05:37:30", 
+    "_body": "", 
+    "_head": "1e44", 
+    "_date": "9ee5050f0f"
+  }, 
+  {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2015-11-15T05:35:30 head[2], body[0] op[0x1e]", 
+    "timestamp": "2015-11-15T05:35:30", 
+    "_body": "", 
+    "_head": "1e02", 
+    "_date": "9ee3050f0f"
+  }, 
+  {
+    "_type": "NoDelivery", 
+    "_description": "NoDelivery 2015-11-15T05:35:30 head[4], body[0] op[0x06]", 
+    "timestamp": "2015-11-15T05:35:30", 
+    "_body": "", 
+    "_head": "06670155", 
+    "_date": "9ee3a58f0f"
   }, 
   {
     "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2015-11-10T21:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2015-11-10T21:00:00", 
-    "_body": "2a1100", 
-    "offset": 75600000, 
-    "_head": "7b07", 
-    "rate": 0.42500000000000004, 
-    "_date": "80c0150a0f"
+    "_description": "BasalProfileStart 2015-11-15T04:00:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2015-11-15T04:00:00", 
+    "_body": "081400", 
+    "offset": 14400000, 
+    "_head": "7b01", 
+    "rate": 0.5, 
+    "_date": "80c0040f0f"
   }, 
   {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-10T20:35:19 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-10T20:35:19", 
-    "_body": "", 
-    "_head": "0a82", 
-    "amount": 130, 
-    "_date": "93e3540a0f"
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2015-11-15T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2015-11-15T00:00:00", 
+    "_body": "0a00750000070000042d02393501f42f006e014c000000a8000005000100008a006202151e00004dca0100010000000000", 
+    "_head": "6e", 
+    "_date": "ae8f"
   }, 
   {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:34:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:34:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80e254aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:29:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:29:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80dd54aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:24:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:24:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80d854aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:15:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:15:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80cf54aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:10:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:10:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80ca54aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:05:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:05:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80c554aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Meter BG Now", 
-    "_description": "SensorAlert 2015-11-10T20:00:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 104, 
-    "timestamp": "2015-11-10T20:00:00", 
-    "_body": "", 
-    "_head": "0b6800", 
-    "_date": "80c054aa0f"
-  }, 
-  {
-    "_type": "SensorAlert", 
-    "alarm_description": "Cal Reminder", 
-    "_description": "SensorAlert 2015-11-10T19:04:00 head[3], body[0] op[0x0b]", 
-    "alarm_type": 105, 
-    "timestamp": "2015-11-10T19:04:00", 
-    "_body": "", 
-    "_head": "0b6900", 
-    "_date": "80c453aa0f"
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-11-15T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2015-11-15T00:00:00", 
+    "_body": "000000", 
+    "_head": "070000042d", 
+    "_date": "ae8f"
   }, 
   {
     "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2015-11-10T19:02:15 head[2], body[3] op[0x7b]", 
-    "timestamp": "2015-11-10T19:02:15", 
-    "_body": "241600", 
-    "offset": 64800000, 
-    "_head": "7b06", 
-    "rate": 0.55, 
-    "_date": "8fc2130a0f"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_new_profile", 
-    "_description": "ChangeBasalProfile_new_profile 2015-11-10T19:02:14 head[2], body[145] op[0x09]", 
-    "timestamp": "2015-11-10T19:02:14", 
-    "_body": "001a000814000c1900141d001c1c00221a002416002a110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "0908", 
-    "rate": "offset", 
-    "_date": "8ec2130a0f"
-  }, 
-  {
-    "_type": "ChangeBasalProfile_old_profile", 
-    "_description": "ChangeBasalProfile_old_profile 2015-11-10T19:02:14 head[2], body[145] op[0x08]", 
-    "timestamp": "2015-11-10T19:02:14", 
-    "_body": "001a000814000c1900141d001c1c00221a002416002a120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
-    "_head": "0808", 
-    "rate": "offset", 
-    "_date": "8ec2130a0f"
-  }, 
-  {
-    "programmed": 0.8, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T18:37:42 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T18:37:42", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 1.6, 
-            "age": 9
-          }, 
-          {
-            "amount": 0.4, 
-            "age": 19
-          }, 
-          {
-            "amount": 0.8, 
-            "age": 159
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 179
-          }, 
-          {
-            "amount": 2.1, 
-            "age": 189
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 289
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 409
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c174009c01013c0209fc01cb3c054bdc03821d07899d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100200020005400", 
-    "amount": 0.8, 
-    "unabsorbed": 2.1, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "aae5326a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 75, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T18:37:42 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T18:37:42", 
-    "_body": "0aa0033e3228100020000054002037", 
-    "_head": "5b4b", 
-    "unabsorbed_insulin_total": 2.1, 
-    "correction_estimate": 0.4, 
-    "_date": "aae5126a0f", 
-    "bolus_estimate": 0.8, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.8, 
-    "carb_input": 10, 
-    "sensitivity": 50
-  }, 
-  {
-    "programmed": 1.6, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T18:31:00 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T18:31:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[20], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.4, 
-            "age": 13
-          }, 
-          {
-            "amount": 0.8, 
-            "age": 153
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 173
-          }, 
-          {
-            "amount": 2.1, 
-            "age": 183
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 283
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 403
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c14100dc02099c01cadc054b7c0381bd07893d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100400040001800", 
-    "amount": 1.6, 
-    "unabsorbed": 0.6, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "80df326a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 75, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T18:31:00 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T18:31:00", 
-    "_body": "14a0033e3228100040000018004037", 
-    "_head": "5b4b", 
-    "unabsorbed_insulin_total": 0.6, 
-    "correction_estimate": 0.4, 
-    "_date": "80df126a0f", 
-    "bolus_estimate": 1.6, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 1.6, 
-    "carb_input": 20, 
-    "sensitivity": 50
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-10T18:30:50 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-10T18:30:50", 
-    "_body": "", 
-    "_head": "0a4b", 
-    "amount": 75, 
-    "_date": "b2de520a0f"
-  }, 
-  {
-    "programmed": 0.4, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T18:24:14 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T18:24:14", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.8, 
-            "age": 146
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 166
-          }, 
-          {
-            "amount": 2.1, 
-            "age": 176
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 276
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 396
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c112092c01ca6c054b0c03814d0788cd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100100010000c00", 
-    "amount": 0.4, 
-    "unabsorbed": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "8ed8326a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 73, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T18:24:13 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T18:24:13", 
-    "_body": "05a0033e32280c001000000c001037", 
-    "_head": "5b49", 
-    "unabsorbed_insulin_total": 0.3, 
-    "correction_estimate": 0.3, 
-    "_date": "8dd8126a0f", 
-    "bolus_estimate": 0.4, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.4, 
-    "carb_input": 5, 
-    "sensitivity": 50
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-10T18:24:11 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-10T18:24:11", 
-    "_body": "", 
-    "_head": "0a49", 
-    "amount": 73, 
-    "_date": "8bd8520a0f"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2015-11-10T18:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2015-11-10T18:00:00", 
-    "_body": "241600", 
-    "offset": 64800000, 
-    "_head": "7b06", 
-    "rate": 0.55, 
-    "_date": "80c0120a0f"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2015-11-10T17:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2015-11-10T17:00:00", 
-    "_body": "221a00", 
-    "offset": 61200000, 
-    "_head": "7b05", 
+    "_description": "BasalProfileStart 2015-11-15T00:00:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2015-11-15T00:00:00", 
+    "_body": "001a00", 
+    "offset": 0, 
+    "_head": "7b00", 
     "rate": 0.65, 
-    "_date": "80c0110a0f"
-  }, 
-  {
-    "programmed": 0.8, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T16:03:27 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T16:03:27", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.7, 
-            "age": 25
-          }, 
-          {
-            "amount": 2.1, 
-            "age": 35
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 135
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 255
-          }, 
-          {
-            "amount": 1.9, 
-            "age": 415
-          }, 
-          {
-            "amount": 0.15, 
-            "age": 445
-          }, 
-          {
-            "amount": 2.45, 
-            "age": 455
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c171c19c05423c03887c078ffc04c9fd006bdd062c7d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100200020007000", 
-    "amount": 0.8, 
-    "unabsorbed": 2.8, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "9bc3306a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 57, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T16:03:27 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T16:03:27", 
-    "_body": "0aa0035c3228000020000070002037", 
-    "_head": "5b39", 
-    "unabsorbed_insulin_total": 2.8, 
-    "correction_estimate": 0.0, 
-    "_date": "9bc3106a0f", 
-    "bolus_estimate": 0.8, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.8, 
-    "carb_input": 10, 
-    "sensitivity": 50
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-10T16:03:24 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-10T16:03:24", 
-    "_body": "", 
-    "_head": "0a39", 
-    "amount": 57, 
-    "_date": "98c3500a0f"
-  }, 
-  {
-    "programmed": 0.4, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T15:40:34 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T15:40:34", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[26], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.3, 
-            "age": 2
-          }, 
-          {
-            "amount": 2.1, 
-            "age": 12
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 112
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 232
-          }, 
-          {
-            "amount": 1.9, 
-            "age": 392
-          }, 
-          {
-            "amount": 0.15, 
-            "age": 422
-          }, 
-          {
-            "amount": 2.45, 
-            "age": 432
-          }, 
-          {
-            "amount": 4.0, 
-            "age": 462
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c1a0c02c0540cc03870c078e8c04c88d006a6d062b0d0a0ced0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100100010007000", 
-    "amount": 0.4, 
-    "unabsorbed": 2.8, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "a2e82f6a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 72, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T15:40:34 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T15:40:34", 
-    "_body": "05a0035c32280c0010000070001037", 
-    "_head": "5b48", 
-    "unabsorbed_insulin_total": 2.8, 
-    "correction_estimate": 0.3, 
-    "_date": "a2e80f6a0f", 
-    "bolus_estimate": 0.4, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.4, 
-    "carb_input": 5, 
-    "sensitivity": 50
-  }, 
-  {
-    "programmed": 0.8, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T15:37:20 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T15:37:20", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 1.6, 
-            "age": 9
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 109
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 229
-          }, 
-          {
-            "amount": 1.9, 
-            "age": 389
-          }, 
-          {
-            "amount": 0.15, 
-            "age": 419
-          }, 
-          {
-            "amount": 2.45, 
-            "age": 429
-          }, 
-          {
-            "amount": 4.0, 
-            "age": 459
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c174009c0386dc078e5c04c85d006a3d062add0a0cbd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100200020005400", 
-    "amount": 0.8, 
-    "unabsorbed": 2.1, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "94e52f6a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 72, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T15:37:20 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T15:37:20", 
-    "_body": "0aa0035c32280c0020000054002037", 
-    "_head": "5b48", 
-    "unabsorbed_insulin_total": 2.1, 
-    "correction_estimate": 0.3, 
-    "_date": "94e50f6a0f", 
-    "bolus_estimate": 0.8, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.8, 
-    "carb_input": 10, 
-    "sensitivity": 50
-  }, 
-  {
-    "programmed": 0.8, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T15:35:21 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T15:35:21", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.8, 
-            "age": 7
-          }, 
-          {
-            "amount": 1.4, 
-            "age": 107
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 227
-          }, 
-          {
-            "amount": 1.9, 
-            "age": 387
-          }, 
-          {
-            "amount": 0.15, 
-            "age": 417
-          }, 
-          {
-            "amount": 2.45, 
-            "age": 427
-          }, 
-          {
-            "amount": 4.0, 
-            "age": 457
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c172007c0386bc078e3c04c83d006a1d062abd0a0c9d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100200020003400", 
-    "amount": 0.8, 
-    "unabsorbed": 1.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "95e32f6a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 72, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T15:35:21 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T15:35:21", 
-    "_body": "0aa0035c32280c0020000034002037", 
-    "_head": "5b48", 
-    "unabsorbed_insulin_total": 1.3, 
-    "correction_estimate": 0.3, 
-    "_date": "95e30f6a0f", 
-    "bolus_estimate": 0.8, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.8, 
-    "carb_input": 10, 
-    "sensitivity": 50
-  }, 
-  {
-    "programmed": 0.8, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-10T15:32:41 head[8], body[0] op[0x01]", 
-    "timestamp": "2015-11-10T15:32:41", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[20], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 1.4, 
-            "age": 104
-          }, 
-          {
-            "amount": 3.0, 
-            "age": 224
-          }, 
-          {
-            "amount": 1.9, 
-            "age": 384
-          }, 
-          {
-            "amount": 0.15, 
-            "age": 414
-          }, 
-          {
-            "amount": 2.45, 
-            "age": 424
-          }, 
-          {
-            "amount": 4.0, 
-            "age": 454
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c143868c078e0c04c80d0069ed062a8d0a0c6d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100200020001400", 
-    "amount": 0.8, 
-    "unabsorbed": 0.5, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "a9e02f6a0f"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 72, 
-    "bg_target_high": 55, 
-    "_description": "BolusWizard 2015-11-10T15:32:41 head[2], body[15] op[0x5b]", 
-    "timestamp": "2015-11-10T15:32:41", 
-    "_body": "0aa0035c32280c0020000014002037", 
-    "_head": "5b48", 
-    "unabsorbed_insulin_total": 0.5, 
-    "correction_estimate": 0.3, 
-    "_date": "a9e00f6a0f", 
-    "bolus_estimate": 0.8, 
-    "bg_target_low": 40, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 0.8, 
-    "carb_input": 10, 
-    "sensitivity": 50
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-10T15:32:38 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-10T15:32:38", 
-    "_body": "", 
-    "_head": "0a48", 
-    "amount": 72, 
-    "_date": "a6e04f0a0f"
+    "_date": "80c0000f0f"
   }
 ]
