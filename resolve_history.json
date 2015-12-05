@@ -1,130 +1,66 @@
 [
   {
     "amount": 0.7, 
-    "start_at": "2015-11-28T19:41:48", 
+    "start_at": "2015-12-05T19:52:07", 
     "description": "Normal bolus: 0.7U", 
     "type": "Bolus", 
     "unit": "U", 
-    "end_at": "2015-11-28T19:41:48"
+    "end_at": "2015-12-05T19:52:07"
   }, 
   {
     "amount": 10, 
-    "start_at": "2015-11-28T19:41:48", 
+    "start_at": "2015-12-05T19:52:06", 
     "description": "BolusWizard: 10g", 
     "type": "Meal", 
     "unit": "g", 
-    "end_at": "2015-11-28T19:41:48"
+    "end_at": "2015-12-05T19:52:06"
   }, 
   {
-    "amount": 0, 
-    "start_at": "2015-11-28T19:08:17", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T19:34:34"
-  }, 
-  {
-    "amount": 0, 
-    "start_at": "2015-11-28T19:08:14", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T21:00:00"
-  }, 
-  {
-    "amount": 3.5, 
-    "start_at": "2015-11-28T17:39:01", 
-    "description": "Normal bolus: 3.5U", 
+    "amount": 0.7, 
+    "start_at": "2015-12-05T19:47:57", 
+    "description": "Normal bolus: 0.7U", 
     "type": "Bolus", 
     "unit": "U", 
-    "end_at": "2015-11-28T17:39:01"
+    "end_at": "2015-12-05T19:47:57"
   }, 
   {
-    "amount": 40, 
-    "start_at": "2015-11-28T17:39:01", 
-    "description": "BolusWizard: 40g", 
+    "amount": 10, 
+    "start_at": "2015-12-05T19:47:57", 
+    "description": "BolusWizard: 10g", 
     "type": "Meal", 
     "unit": "g", 
-    "end_at": "2015-11-28T17:39:01"
+    "end_at": "2015-12-05T19:47:57"
   }, 
   {
-    "amount": 0, 
-    "start_at": "2015-11-28T16:42:51", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T17:38:41"
-  }, 
-  {
-    "amount": 0, 
-    "start_at": "2015-11-28T16:42:46", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T21:00:00"
-  }, 
-  {
-    "amount": 0, 
-    "start_at": "2015-11-28T16:19:47", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T21:00:00"
-  }, 
-  {
-    "amount": 0.8, 
-    "start_at": "2015-11-28T15:50:39", 
-    "description": "Normal bolus: 0.8U", 
+    "amount": 1.7, 
+    "start_at": "2015-12-05T18:07:46", 
+    "description": "Normal bolus: 1.7U", 
     "type": "Bolus", 
     "unit": "U", 
-    "end_at": "2015-11-28T15:50:39"
+    "end_at": "2015-12-05T18:07:46"
   }, 
   {
-    "amount": 0.5, 
-    "start_at": "2015-11-28T15:47:17", 
-    "description": "Normal bolus: 0.5U", 
+    "amount": 20, 
+    "start_at": "2015-12-05T18:07:46", 
+    "description": "BolusWizard: 20g", 
+    "type": "Meal", 
+    "unit": "g", 
+    "end_at": "2015-12-05T18:07:46"
+  }, 
+  {
+    "amount": 1.7, 
+    "start_at": "2015-12-05T17:57:54", 
+    "description": "Normal bolus: 1.7U", 
     "type": "Bolus", 
     "unit": "U", 
-    "end_at": "2015-11-28T15:47:17"
+    "end_at": "2015-12-05T17:57:54"
   }, 
   {
-    "amount": 0.7, 
-    "start_at": "2015-11-28T15:43:40", 
-    "description": "Normal bolus: 0.7U", 
-    "type": "Bolus", 
-    "unit": "U", 
-    "end_at": "2015-11-28T15:43:40"
-  }, 
-  {
-    "amount": 0.9, 
-    "start_at": "2015-11-28T15:39:16", 
-    "description": "Normal bolus: 0.9U", 
-    "type": "Bolus", 
-    "unit": "U", 
-    "end_at": "2015-11-28T15:39:16"
-  }, 
-  {
-    "amount": 0.7, 
-    "start_at": "2015-11-28T15:36:47", 
-    "description": "Normal bolus: 0.7U", 
-    "type": "Bolus", 
-    "unit": "U", 
-    "end_at": "2015-11-28T15:36:47"
-  }, 
-  {
-    "amount": 0, 
-    "start_at": "2015-11-28T15:12:25", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T15:36:31"
-  }, 
-  {
-    "amount": 0, 
-    "start_at": "2015-11-28T15:12:22", 
-    "description": "Pump Suspend", 
-    "type": "TempBasal", 
-    "unit": "percent", 
-    "end_at": "2015-11-28T21:00:00"
+    "amount": 10, 
+    "start_at": "2015-12-05T17:57:54", 
+    "description": "BolusWizard: 10g", 
+    "type": "Meal", 
+    "unit": "g", 
+    "end_at": "2015-12-05T17:57:54"
   }
 ]
