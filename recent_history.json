@@ -1,5 +1,14 @@
 [
   {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-07T20:11:41 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-07T20:11:41", 
+    "_body": "", 
+    "_head": "0a4a", 
+    "amount": 74, 
+    "_date": "e90b54070f"
+  }, 
+  {
     "_type": "SensorAlert", 
     "alarm_description": "Meter BG Now", 
     "_description": "SensorAlert 2015-12-07T20:05:00 head[3], body[0] op[0x0b]", 
