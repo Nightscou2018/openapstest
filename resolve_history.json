@@ -61,7 +61,7 @@
     "description": "Pump Suspend", 
     "type": "TempBasal", 
     "unit": "percent", 
-    "end_at": "2015-12-07T20:11:41"
+    "end_at": "2015-12-07T21:00:00"
   }, 
   {
     "amount": 0, 
@@ -69,7 +69,7 @@
     "description": "Pump Suspend", 
     "type": "TempBasal", 
     "unit": "percent", 
-    "end_at": "2015-12-07T20:11:41"
+    "end_at": "2015-12-07T21:00:00"
   }, 
   {
     "amount": 1.2, 
