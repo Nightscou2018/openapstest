@@ -1,5 +1,59 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 163, 
+    "bg_target_high": 55, 
+    "_description": "BolusWizard 2015-12-10T18:54:22 head[2], body[15] op[0x5b]", 
+    "timestamp": "2015-12-10T18:54:22", 
+    "_body": "00a0035c3228540000000000005437", 
+    "_head": "5ba3", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 2.1, 
+    "_date": "d636126a0f", 
+    "bolus_estimate": 2.1, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.2, 
+            "age": 296
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 426
+          }, 
+          {
+            "amount": 0.25, 
+            "age": 446
+          }, 
+          {
+            "amount": 0.85, 
+            "age": 456
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e3028d02caad00abed022c8d0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 40, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 50
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-10T18:54:19 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-10T18:54:19", 
+    "_body": "", 
+    "_head": "0aa3", 
+    "amount": 163, 
+    "_date": "d336520a0f"
+  }, 
+  {
     "_type": "SensorAlert", 
     "alarm_description": "Meter BG Now", 
     "_description": "SensorAlert 2015-12-10T18:51:00 head[3], body[0] op[0x0b]", 
