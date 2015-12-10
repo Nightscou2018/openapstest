@@ -1,5 +1,13 @@
 [
   {
+    "amount": 2.1, 
+    "start_at": "2015-12-10T18:54:22", 
+    "description": "Normal bolus: 2.1U", 
+    "type": "Bolus", 
+    "unit": "U", 
+    "end_at": "2015-12-10T18:54:22"
+  }, 
+  {
     "amount": 0, 
     "start_at": "2015-12-10T15:33:46", 
     "description": "Pump Suspend", 
